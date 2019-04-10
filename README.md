@@ -8,7 +8,12 @@ The dataset which will be wrangled  is the tweet archive of Twitter user @dog_ra
 ### Software Needed
 - Need to be able to work in a Jupyter Notebook on your computer.
 
-- The following packages (libraries) need to be installed: pandas, NumPy, requests, tweepy, and json
+- The following packages (libraries) need to be installed: 
+  - pandas
+  - NumPy
+  - requests
+  - tweepy
+  - json
 
 ### Enhanced Twitter Archive
 
@@ -30,3 +35,13 @@ Key points to keep in mind when data wrangling for this project:
 - Cleaning includes merging individual pieces of data according to the rules of tidy data.
 - The fact that the rating numerators are greater than the denominators does not need to be cleaned. This unique rating system is a big part of the popularity of WeRateDogs.
 - The project does not require gathering tweets beyond August 1st, 2017. You can, but note that you won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
+
+### Project Details
+The tasks in this project are as follows:
+
+- Data wrangling, which consists of:
+  - Gathering data (downloadable file in the Resources tab in the left most panel of your classroom and linked in step 1 below).
+  - Assessing data
+  - Cleaning data
+- Storing, analyzing, and visualizing your wrangled data
+- Reporting on 1) your data wrangling efforts and 2) your data analyses and visualizations
