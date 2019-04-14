@@ -6,7 +6,7 @@ Real-world data rarely comes clean. Using Python and its libraries, the project 
 The dataset which will be wrangled  is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for you to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. 
 
 ### Software Needed
-- Need to be able to work in a Jupyter Notebook on your computer.
+- Need to be able to work in a Jupyter Notebook.
 
 - The following packages (libraries) need to be installed: 
   - pandas
@@ -17,15 +17,15 @@ The dataset which will be wrangled  is the tweet archive of Twitter user @dog_ra
 
 ### Enhanced Twitter Archive
 
-The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets with ratings only have beenfiltered for  (there are 2356).
+The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets with ratings only have beenfiltered for (there are 2356).
 
 ### Additional Data via the Twitter API
 
-Back to the basic-ness of Twitter archives: retweet count and favorite count are two of the notable column omissions. Fortunately, this additional data can be gathered from Twitter's API. Well, "anyone" who has access to data for the 3000 most recent tweets, at least. The project queries Twitter's API to gather this valuable data.
+Regarding the basic-ness of Twitter archives: retweet count and favorite count are two of the notable column omissions. Fortunately, this additional data can be gathered from Twitter's API. The project queries Twitter's API to gather this valuable data.
 
 ### Image Predictions File
 
-One more cool thing: Udacity ran every image in the WeRateDogs Twitter archive through a neural network that can classify breeds of dogs*. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
+Udacity ran every image in the WeRateDogs Twitter archive through a neural network that can classify breeds of dogs. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 
 ### Key Points
 Key points to keep in mind when data wrangling for this project:
@@ -34,7 +34,7 @@ Key points to keep in mind when data wrangling for this project:
 - Assessing and cleaning the entire dataset completely would require a lot of time, and is not necessary to practice and demonstrate your skills in data wrangling. Therefore, the requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues in this dataset.
 - Cleaning includes merging individual pieces of data according to the rules of tidy data.
 - The fact that the rating numerators are greater than the denominators does not need to be cleaned. This unique rating system is a big part of the popularity of WeRateDogs.
-- The project does not require gathering tweets beyond August 1st, 2017. You can, but note that you won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
+- The project does not require gathering tweets beyond August 1st, 2017.
 
 ### Project Details
 The tasks in this project are as follows:
@@ -44,4 +44,6 @@ The tasks in this project are as follows:
   - Assessing data
   - Cleaning data
 - Storing, analyzing, and visualizing your wrangled data
-- Reporting on 1) your data wrangling efforts and 2) your data analyses and visualizations
+- Reporting on 
+  - Data wrangling efforts
+  - Data analyses and visualizations
